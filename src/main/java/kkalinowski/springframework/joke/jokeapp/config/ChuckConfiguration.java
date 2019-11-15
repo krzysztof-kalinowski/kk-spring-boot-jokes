@@ -8,10 +8,10 @@ import org.springframework.context.annotation.Configuration;
  * Created by Krzysztof Kalinowski on 15/11/2019.
  */
 
-@Configuration
+//@Configuration
 public class ChuckConfiguration {
 
-    @Bean
+//    @Bean
     public ChuckNorrisQuotes chuckNorrisQuotes(){
         return new ChuckNorrisQuotes();
     }
